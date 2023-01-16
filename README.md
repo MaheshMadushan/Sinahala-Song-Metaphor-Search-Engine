@@ -10,7 +10,7 @@ This project is to build search engine to search Sinhala metaphors that are used
 This engine will build using Apache solr platform. Its major features include full-text search, hit highlighting, faceted search, real-time indexing, dynamic clustering, database integration, NoSQL features and rich document handling.
 
 ## Use cases
-Use case A:
+## Use case A:
 User query – “ඔබ සුවදයි ...”
 Search result will look like this - ගීතය - කස්තුරි සුවදකි සත්තකින්ම ඔබ, ගායනය - භාතිය සහ සන්තුශ්, ......
 
