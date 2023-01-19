@@ -8,6 +8,7 @@ json_file = open(os.getcwd() + '\songs_with_features.json',encoding="utf-8")
 # returns JSON object as 
 # a dictionary
 data = json.load(json_file)
+
 with open("songs_csv_with_features_updated.json", "w",encoding="utf-8") as outfile:
     for json_ in data['songs']:
         json_["timestamp"] = datetime.now().timestamp()
